@@ -35,7 +35,10 @@ export default function Hero() {
           </Link>
           <Link href="/rooms">
             <button className="relative border border-white text-white px-6 py-3 rounded-md font-semibold overflow-hidden group">
-              <span className="absolute inset-0 bg-blue-900 scale-x-0 origin-right transition-transform duration-300 group-hover:scale-x-100"></span>
+              <span
+                className="absolute inset-0 bg-blue-900 scale-x-0 origin-right 
+              transition-transform duration-300 group-hover:scale-x-100"
+              ></span>
               <span className="relative z-10">Explore Rooms</span>
             </button>
           </Link>

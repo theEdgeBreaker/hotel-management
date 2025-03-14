@@ -46,9 +46,9 @@ const facilities = [
   },
 ];
 
-const FacilitiesSection = () => {
+const Facilities = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-20 bg-gray-50">
       <div className="text-center mb-10">
         <h2 className="text-4xl font-bold text-gray-900">
           Luxury Facilities & Services
@@ -77,12 +77,19 @@ const FacilitiesSection = () => {
       </div>
 
       <div className="text-center mt-10">
-        <button className="border border-blue-900 text-blue-900 font-semibold px-6 py-2 rounded-lg hover:bg-blue-900 hover:text-white transition">
+        {/* <button className="border border-blue-900 text-blue-900 font-semibold px-6 py-2 rounded-lg hover:bg-blue-900 hover:text-white transition">
           Explore All Amenities
+        </button> */}
+
+        <button className="relative border border-blue-900 text-blue-900 font-semibold px-6 py-2 rounded-lg overflow-hidden group">
+          <span className="absolute inset-0 bg-blue-900 scale-x-0 origin-right transition-transform duration-300 group-hover:scale-x-100"></span>
+          <span className="relative z-10 group-hover:text-white">
+            Explore All Amenities
+          </span>
         </button>
       </div>
     </section>
   );
 };
 
-export default FacilitiesSection;
+export default Facilities;

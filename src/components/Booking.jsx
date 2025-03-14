@@ -18,7 +18,7 @@ const Booking = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+    <div className="flex justify-center items-center pt-12 pb-52 bg-gray-100">
       <div className="bg-white p-8 shadow-lg rounded-lg w-full max-w-3xl">
         <h2 className="text-2xl font-bold text-center text-blue-900 mb-6">
           Find Your Perfect Room

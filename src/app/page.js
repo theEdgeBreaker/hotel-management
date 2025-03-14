@@ -1,11 +1,11 @@
-import Navbar from "@/compoents/Navbar";
-import Hero from "@/compoents/Hero";
-import Booking from "@/compoents/Booking";
-import FeaturedRooms from "@/compoents/FeaturedRooms";
-import FacilitiesAndServices from "@/compoents/FacilitiesAndServices";
-// import Testimonials from "@/compoents/Testimonials";
-import Contact from "@/compoents/Contact";
-import Footer from "@/compoents/Footer";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Booking from "../components/Booking";
+import FeaturedRooms from "../components/FeaturedRooms";
+import Testimonials from "../components/Testimonials";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Facilities from "../components/Facilities";
 
 export default function Home() {
   return (
@@ -14,8 +14,8 @@ export default function Home() {
       <Hero />
       <Booking />
       <FeaturedRooms />
-      <FacilitiesAndServices />
-      {/* <Testimonials /> */}
+      <Facilities />
+      <Testimonials />
       <Contact />
       <Footer />
     </>
