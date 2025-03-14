@@ -1,10 +1,10 @@
-import FeaturedRooms from "../../components/FeaturedRooms";
 import React from "react";
+import Testimonials from "../../components/Testimonials";
 
 function page() {
   return (
     <div>
-      <FeaturedRooms />
+      <Testimonials />
     </div>
   );
 }
