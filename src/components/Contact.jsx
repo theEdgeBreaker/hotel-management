@@ -20,9 +20,7 @@ const Contact = () => {
                 <span className="text-yellow-600 text-xl">📍</span>
                 <div>
                   <h4 className="font-semibold text-blue-700">Hotel Address</h4>
-                  <p>
-                    1234 Paradise Bay Road, Oceanview, CA 92051, United States
-                  </p>
+                  <p>Ananya Retreat Resort Shivpuri, Rishikesh</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -116,7 +114,8 @@ const Contact = () => {
         <div className="mt-8">
           <iframe
             className="w-full h-64 rounded-lg shadow-lg"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093985!2d144.9537363153161!3d-37.81627927975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43df9c0c1f%3A0x5045675218cee40!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1638919981297!5m2!1sen!2sus"
+            // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093985!2d144.9537363153161!3d-37.81627927975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43df9c0c1f%3A0x5045675218cee40!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1638919981297!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883253.9016611825!2d77.15691247812498!3d30.1453957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909177d12067e55%3A0x31cc6a24cc486771!2sAnanya%20Retreat%20Resort%20Shivpuri%2C%20Rishikesh!5e0!3m2!1sen!2sin!4v1741929551257!5m2!1sen!2sin"
             allowFullScreen=""
             loading="lazy"
           ></iframe>

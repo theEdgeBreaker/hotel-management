@@ -32,6 +32,20 @@ const testimonials = [
     review:
       "My family and I had an amazing vacation at this resort. The Family Suite was spacious and comfortable, and the kids loved the pool. The staff was incredibly friendly and attentive to our needs. The dining options were fantastic!",
   },
+  {
+    name: "Maria Rodriguez",
+    location: "Madrid, Spain",
+    src: "/Testimonials3.jpg", // Different image
+    review:
+      "My family and I had an amazing vacation at this resort. The Family Suite was spacious and comfortable, and the kids loved the pool. The staff was incredibly friendly and attentive to our needs. The dining options were fantastic!",
+  },
+  {
+    name: "Maria Rodriguez",
+    location: "Madrid, Spain",
+    src: "/Testimonials3.jpg", // Different image
+    review:
+      "My family and I had an amazing vacation at this resort. The Family Suite was spacious and comfortable, and the kids loved the pool. The staff was incredibly friendly and attentive to our needs. The dining options were fantastic!",
+  },
 ];
 
 const Testimonials = () => {
